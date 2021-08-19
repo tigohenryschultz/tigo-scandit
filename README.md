@@ -1,23 +1,12 @@
 ## Project setup
 ```
 npm install
-npm i -g ionic
+npx cap add android
+npx cap sync android
 ```
 
 ### Hot Reload development in browser
 ```
-ionic serve
+ionic cap run android -l --external
 ```
 
-### Hot Reload on android device
-```
-make dev-android
-```
-
-### Android Production Build
-```
-make prod-android
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
