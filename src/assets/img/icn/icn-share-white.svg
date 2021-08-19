@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50">
+<defs>
+    <style>
+      .circle {
+        fill: #489f3e;
+        fill-opacity: 0;
+      }
+
+      .picture {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="circle" cx="25" cy="25" r="25" />
+  <path class="picture"
+        transform="translate(0,-2)"
+        d="M24.9552222,11 L18.5,16.4552222 L19.5313333,17.4793333 L24.2777778,13.7242222 L24.2777778,28.5005 L25.7222222,28.5005 L25.7222222,13.8036667 L30.4701111,17.4793333 L31.5,16.4552222 L24.9552222,11 Z M28.501,20.5 L28.501,22.5005 L33,22.5005 L33,35.5005 L17,35.5005 L17,22.5005 L21.5,22.5005 L21.5,20.5 L15,20.5005 L15,37.5005 L35,37.5005 L35,20.5005 L28.501,20.5 Z"></path>
+</svg>

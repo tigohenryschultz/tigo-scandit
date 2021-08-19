@@ -1,0 +1,65 @@
+{
+  "name": "tigoscandit",
+  "version": "1.0.1",
+  "androidBuild": "10001",
+  "iosBuild": "01",
+  "hideBuild": true,
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:dev": "vue-cli-service build --mode development",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e --headless",
+    "visual:e2e": "vue-cli-service test:e2e",
+    "ionic:serve": "vue-cli-service serve",
+    "ionic:build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "^2.4.9",
+    "@capacitor/core": "^2.4.9",
+    "@capacitor/ios": "^2.4.9",
+    "@ionic-native/wifi-wizard-2": "^5.35.0",
+    "@ionic/vue": "^5.6.13",
+    "@ionic/vue-router": "^5.6.14",
+    "core-js": "^3.16.1",
+    "es6-promise-plugin": "^4.2.2",
+    "bootstrap": "^4.5.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "scandit-capacitor-datacapture-barcode": "^6.9.0",
+    "scandit-capacitor-datacapture-core": "^6.9.0",
+    "vue": "^3.2.2",
+    "vue-router": "^4.0.11"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^2.4.9",
+    "@intlify/vue-i18n-loader": "^2.1.2",
+    "@types/jest": "^26.0.24",
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-e2e-cypress": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.2.2",
+    "@vue/test-utils": "^2.0.0-rc.12",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^7.7.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "typescript": "^3.9.10",
+    "vue-jest": "^5.0.0-alpha.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

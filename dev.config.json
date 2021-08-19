@@ -1,0 +1,11 @@
+{
+  "hideLogs": false,
+  "server": {
+    "allowNavigation": [
+      "10.*",
+      "192.168.*",
+      "172.*"
+    ],
+    "cleartext": true
+  }
+}

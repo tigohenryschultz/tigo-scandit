@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.781" height="14" viewBox="0 0 21.781 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #489f3e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse_9_copy_5" data-name="Ellipse 9 copy 5" class="cls-1" d="M679,597a10.805,10.805,0,0,0-10,6,11.333,11.333,0,0,0,20,0A10.9,10.9,0,0,0,679,597Z" transform="translate(-668.094 -596)"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+	"appId": "com.tigo.scandit",
+	"appName": "Tigo SCANDIT",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "dist",
+	"linuxAndroidStudioPath": "/snap/android-studio/current/android-studio/bin/studio.sh",
+	"plugins": {
+		"SplashScreen": {
+			"showSpinner": true,
+			"spinnerColor": "#489F3E"
+		}
+	},
+	"server": {
+		"url": "http://10.9.1.16:8100"
+	}
+}

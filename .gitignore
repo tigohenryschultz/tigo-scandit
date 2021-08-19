@@ -1,0 +1,30 @@
+.DS_Store
+node_modules
+/dist
+/fastlane/README.md
+/fastlane/report.xml
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/.gradle/
+
+# Generated splash and icons
+resources/android/icon/
+resources/android/splash/
+resources/ios/icon/
+resources/ios/splash/

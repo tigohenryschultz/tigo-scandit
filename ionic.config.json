@@ -1,0 +1,7 @@
+  {
+  "name": "tigosmart",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
